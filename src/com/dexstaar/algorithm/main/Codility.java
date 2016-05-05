@@ -5,8 +5,8 @@ public class Codility {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		BinaryGap binaryGap = new BinaryGap();
-		System.out.println( binaryGap.solution(6));
+		BinaryGap2 binaryGap = new BinaryGap2();
+		System.out.println( binaryGap.solution(1041));
 	}
 
 }
