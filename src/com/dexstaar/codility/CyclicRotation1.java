@@ -1,7 +1,7 @@
 package com.dexstaar.codility;
 
-public class CycleRotation {
-	public CycleRotation(){
+public class CyclicRotation1 {
+	public CyclicRotation1(){
 	
 	}
 	
@@ -12,14 +12,12 @@ public class CycleRotation {
 		
 		if(ALength == 0) return returnArr;
 		
-		
-		
 		int rotation = K % ALength;
-		//System.out.println("rotation = "+rotation);
+		System.out.println("rotation = "+rotation);
 		
 		int divideLocation = ALength-rotation;
 		
-		//System.out.println("divideLocation = "+divideLocation);
+		System.out.println("divideLocation = "+divideLocation);
 		
 		int returnLocation = 0;
 		
@@ -28,18 +26,18 @@ public class CycleRotation {
 			returnLocation = i-divideLocation;
 			returnArr[returnLocation] = A[i];
 			
-			//System.out.println("returnArr["+returnLocation+"] = "+returnArr[returnLocation]+" | A["+i+"] = "+A[i]);
+			System.out.println("returnArr["+returnLocation+"] = "+returnArr[returnLocation]+" | A["+i+"] = "+A[i]);
 		}
 		
 		
-		//System.out.println("second roop");
+		System.out.println("second roop");
 		
 		//Rotation 뒷부분 채움 
 		for(int i=0; i<divideLocation; i++){
 			returnLocation++;
 			returnArr[returnLocation] = A[i];
 			
-			//System.out.println("returnArr["+returnLocation+"] = "+returnArr[returnLocation]+" | A["+i+"] = "+A[i]);
+			System.out.println("returnArr["+returnLocation+"] = "+returnArr[returnLocation]+" | A["+i+"] = "+A[i]);
 		}
 		
 		return returnArr;
