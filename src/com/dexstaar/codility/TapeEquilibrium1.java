@@ -15,6 +15,7 @@ public class TapeEquilibrium1 {
 		}
 		
 		int untilSum = 0;
+		
 		int gap = 0;
 		
 		for(int i=0; i<A.length; i++){
