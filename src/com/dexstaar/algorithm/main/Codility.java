@@ -7,10 +7,10 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		PermCheck permCheck = new PermCheck();
-		int[] A = {4,1,3,2};
+		MissingInteger3 missingInteger = new MissingInteger3();
+		int[] A = {5,4,2};
 		
-		System.out.println( permCheck.solution(A) );
+		System.out.println( missingInteger.solution(A) );
 	}
 
 }
