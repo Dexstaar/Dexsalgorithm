@@ -1,19 +1,19 @@
 package com.dexstaar.codility;
 
-public class PassingCars1 {
-	public PassingCars1(){
+public class PassingCars {
+	public PassingCars(){
 		
 	}
 	
 	public int solution(int[] A) {
         // write your code in Java SE 8
-		int counter = 0;
+		long counter = 0;
 		int carNum = 0;
 		
 		for(int i=0; i<A.length; i++){
 			if(A[i] == 0){
 				carNum++;
-			}else{
+			}else if(A[i] == 1){
 				counter = counter + 1 * carNum;
 			}
 			
@@ -22,6 +22,6 @@ public class PassingCars1 {
 		
 		if( counter > 1000000000 ) counter = -1;
 		
-		return counter;
+		return (int) counter;
     }
 }
