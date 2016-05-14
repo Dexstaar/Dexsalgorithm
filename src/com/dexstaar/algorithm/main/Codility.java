@@ -7,10 +7,10 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		FrogRiverOne frogRiverOne = new FrogRiverOne();
-		int[] A = {1,3,1,4,2,3,4};
+		PrefixSums1 prefixSums1 = new PrefixSums1();
+		int[] A = {0,1,0,1,1};
 		
-		System.out.println( frogRiverOne.solution(5, A) );
+		System.out.println( prefixSums1.solution(A) );
 	}
 
 }
