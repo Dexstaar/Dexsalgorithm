@@ -7,10 +7,10 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		MaxCounters1 maxCounters = new MaxCounters1();
-		int[] A = {0,1,0,1,1};
+		EquiLeader1 equiLeader = new EquiLeader1();
+		int[] A = {4,3,4,4,4,2};
 		
-		System.out.println( countDiv.solution(6,11,2) );
+		System.out.println( equiLeader.solution(A) );
 	}
 
 }
