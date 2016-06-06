@@ -1,5 +1,6 @@
 package com.dexstaar.codility;
 
+import java.util.Collections;
 import java.util.HashMap;
 
 public class EquiLeader1 {
@@ -16,12 +17,13 @@ public class EquiLeader1 {
 		for(int i=0; i<A.length; i++){
 			if(map.containsKey(A[i])){
 				int currVal = (int)map.get(A[i]);
-				map.put(A[i], currVal);
+				map.put(A[i], currVal+1);
 			}else{
 				map.put(A[i], 1);
 			}
 		}
 		
+		System.out.println( Collections.max(map.values()) );
 		
 		
 		return 0;
