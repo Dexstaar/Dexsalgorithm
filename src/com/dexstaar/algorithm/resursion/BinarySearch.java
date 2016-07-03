@@ -10,9 +10,10 @@ public class BinarySearch {
 	public int binarySearch(int[] array, int target, int lower, int upper) throws BSException {
 		int center, range;
 		
+		//검색 공간의 크기 
 		range = upper - lower;
 		
-		System.out.println("upper = "+upper+" | lower = "+lower);
+		System.out.println("range = "+range+" | lower = "+lower+" | upper = "+upper);
 		
 		if(range < 0){
 			throw new BSException("Limits reversed");
@@ -23,6 +24,8 @@ public class BinarySearch {
 		if(array[lower]>array[upper]){
 			throw new BSException("Array not sorted");
 		}
+		
+		System.out.println("range/2 = " + range/2);
 		
 		center = ((range)/2) + lower;
 		

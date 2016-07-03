@@ -5,9 +5,16 @@ import com.dexstaar.algorithm.resursion.*;
 public class Executor {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Permutation permutation = new Permutation("abc");
-		permutation.permute();
+		BinarySearch binarySearch = new BinarySearch();
+		
+		int[] arr = {1,2,3,4,5,6};
+		
+		try{
+			System.out.println( binarySearch.binarySearch(arr, 4) );
+		}catch(BSException bse){
+			System.out.println(bse);
+		}
+		
 
 	}
 
