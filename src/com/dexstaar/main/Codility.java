@@ -9,7 +9,7 @@ public class Codility {
 		
 		BinaryGap binaryGap = new BinaryGap();
 		
-		System.out.println( binaryGap.getBinaryGap(1041) );
+		System.out.println( binaryGap.solution(1041) );
 	}
 
 }
