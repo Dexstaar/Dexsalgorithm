@@ -1,4 +1,4 @@
-package com.dexstaar.algorithm.main;
+package com.dexstaar.main;
 
 import com.dexstaar.algorithm.resursion.*;
 
