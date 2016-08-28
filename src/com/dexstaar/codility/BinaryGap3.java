@@ -1,7 +1,7 @@
 package com.dexstaar.codility;
 
-public class BinaryGap {
-	public BinaryGap(){
+public class BinaryGap3 {
+	public BinaryGap3(){
 		
 	}
 	
