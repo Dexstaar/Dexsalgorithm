@@ -15,7 +15,7 @@ public class BinaryGap {
         int gap = 0;
 
         // Iterate the chars
-        for( int i=0; i<binaryStr.length(); i++ ){
+        for(int i=0; i<binaryStr.length(); i++){
             if(binaryStr.charAt(i) == '1'){
                 // Put max number into gap
                 gap = Math.max(gap,cnt);
