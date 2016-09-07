@@ -9,11 +9,11 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		OddOccurrencesInArray oddOccurrencesInArray = new OddOccurrencesInArray();
+		TapeEquilibrium tapeEquilibrium = new TapeEquilibrium();
 
-		int[] A = {9,3,9,3,9,7,9};
+		int[] A = {3,1,2,4,3};
 		
-		System.out.println( oddOccurrencesInArray.solution(A) );
+		System.out.println( tapeEquilibrium.solution(A) );
 	}
 
 }
