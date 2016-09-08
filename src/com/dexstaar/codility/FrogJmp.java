@@ -1,17 +1,14 @@
 package com.dexstaar.codility;
 
+/**
+ * Answer of Codility Lesson 3: FrogJmp
+ * Scored: 100
+ */
 public class FrogJmp {
-	public FrogJmp(){
-		
-	}
-	
-	public int solution(int X, int Y, int D) {
-        // write your code in Java SE 8
-		int jump = 0;
-		int distance = Y - X;
-		
-		jump = ( distance % D == 0) ? distance/D : distance/D+1;
-		
-		return jump;
+    public int solution(int X, int Y, int D) {
+        int dis = Y-X;
+        int cnt = (dis % D != 0) ? dis/D+1 : dis/D;
+
+        return cnt;
     }
 }
