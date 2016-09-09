@@ -9,11 +9,11 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		TapeEquilibrium tapeEquilibrium = new TapeEquilibrium();
+		PermMissingElem permMissingElem = new PermMissingElem();
 
-		int[] A = {3,1,2,4,3};
+		int[] A = {2,3,1,5};
 		
-		System.out.println( tapeEquilibrium.solution(A) );
+		System.out.println( permMissingElem.solution(A) );
 	}
 
 }
