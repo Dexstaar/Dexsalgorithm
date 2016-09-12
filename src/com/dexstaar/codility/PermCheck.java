@@ -1,27 +1,25 @@
 package com.dexstaar.codility;
 
-import java.util.Arrays;
-
+/**
+ * Answer for Codility Lesson 4: PermCheck
+ * Scored: 70
+ * Can not catch if total sum is correct, but not permutation
+ * How can I improve?
+ */
 public class PermCheck {
-	public PermCheck(){
-		
-	}
-	
-	public int solution(int[] A) {
-        // write your code in Java SE 8
-		int result = 1;
-		
-		//asceding
-		Arrays.sort(A);
-		
-		//loop: compare A[i] and i+1
-		for(int i=0; i<A.length; i++){
-			if( A[i] != (int) i+1 ){
-				result = 0;
-				break;
-			}
-		}
-		
-		return result;
+
+    public int solution(int[] A) {
+
+        // Get sum
+        int n = A.length;
+        int sum = (1 + n) * n / 2;
+
+        // subtract each elem
+        for(int elem : A) sum -= elem;
+
+        // if sum is 0 return 1
+        if(sum == 0) return 1;
+
+        return 0;
     }
 }
