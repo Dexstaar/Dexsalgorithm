@@ -9,11 +9,11 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		PermMissingElem permMissingElem = new PermMissingElem();
+		MissingInteger missingInteger = new MissingInteger();
 
-		int[] A = {2,3,1,5};
-		
-		System.out.println( permMissingElem.solution(A) );
+		int[] A = {1};
+
+		System.out.println( missingInteger.solution(A) );
 	}
 
 }
