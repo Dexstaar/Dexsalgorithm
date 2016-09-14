@@ -9,11 +9,12 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		MissingInteger missingInteger = new MissingInteger();
+		FrogRiverOne frogRiverOne = new FrogRiverOne();
 
 		int[] A = {1};
+		int X = 2;
 
-		System.out.println( missingInteger.solution(A) );
+		System.out.println( frogRiverOne.solution(X, A) );
 	}
 
 }
