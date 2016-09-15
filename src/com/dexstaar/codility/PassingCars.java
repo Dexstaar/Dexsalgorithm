@@ -1,27 +1,24 @@
 package com.dexstaar.codility;
 
+/**
+ * Answer for Codility Lesson 5: PassingCars
+ * Scored: 100
+ */
 public class PassingCars {
-	public PassingCars(){
-		
-	}
-	
-	public int solution(int[] A) {
-        // write your code in Java SE 8
-		long counter = 0;
-		int carNum = 0;
-		
-		for(int i=0; i<A.length; i++){
-			if(A[i] == 0){
-				carNum++;
-			}else if(A[i] == 1){
-				counter = counter + 1 * carNum;
-			}
-			
-			//System.out.println("i = "+i+ " | carNum = "+carNum+"| counter = "+counter);
-		}
-		
-		if( counter > 1000000000 ) counter = -1;
-		
-		return (int) counter;
+    public int solution(int[] A) {
+        int multiflier = 0;
+        long count = 0;
+
+        for(int i=0; i<A.length; i++){
+            if(A[i] == 0){
+                multiflier++;
+            }else if(A[i] == 1){
+                count += multiflier * 1;
+            }
+        }
+
+        if(count > 1000000000) return -1;
+
+        return (int)count;
     }
 }
