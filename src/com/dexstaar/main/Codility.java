@@ -9,12 +9,9 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		FrogRiverOne frogRiverOne = new FrogRiverOne();
+		CountDiv countDiv = new CountDiv();
 
-		int[] A = {1};
-		int X = 2;
-
-		System.out.println( frogRiverOne.solution(X, A) );
+		System.out.println( countDiv.solution(0,0,11) );
 	}
 
 }
