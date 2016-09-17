@@ -1,17 +1,17 @@
 package com.dexstaar.main;
 
-import com.dexstaar.algorithm.*;
-import com.dexstaar.algorithm.Array.ReverseWords;
+import com.dexstaar.algorithm.Array.*;
+import com.dexstaar.algorithm.resursion.*;
 
 public class Executor {
 
 	public static void main(String[] args) {
 
-		String input = "Do or do not. there is no try.";
+		int num = 4;
 
-		ReverseWords reverseWords = new ReverseWords();
+		Factorial factorial = new Factorial();
 
-		System.out.println( reverseWords.getReversedWords(input) );
+		System.out.println( factorial.getFactorial(num) );
 	}
 
 }
