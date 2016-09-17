@@ -2,16 +2,19 @@ package com.dexstaar.main;
 
 import com.dexstaar.algorithm.Array.*;
 import com.dexstaar.algorithm.resursion.*;
+import com.dexstaar.algorithm.sort.*;
+
+import java.util.Arrays;
 
 public class Executor {
 
 	public static void main(String[] args) {
 
-		int[] arr = {1,2,3,4,5,6,7,8};
+		int[] arr = {2,8,3,4,5,6,1,7};
 
-		BinarySearch binarySearch = new BinarySearch();
+		QuickSort quickSort = new QuickSort();
 
-		System.out.println( binarySearch.getIndex(arr, 7) );
+		System.out.println( Arrays.toString(quickSort.quicksortSimple(arr)) );
 	}
 
 }
