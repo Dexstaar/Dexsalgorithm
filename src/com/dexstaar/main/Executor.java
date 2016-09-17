@@ -7,11 +7,11 @@ public class Executor {
 
 	public static void main(String[] args) {
 
-		int num = 4;
+		int[] arr = {1,2,3,4,5,6,7,8};
 
-		Factorial factorial = new Factorial();
+		BinarySearch binarySearch = new BinarySearch();
 
-		System.out.println( factorial.getFactorial(num) );
+		System.out.println( binarySearch.getIndex(arr, 7) );
 	}
 
 }
