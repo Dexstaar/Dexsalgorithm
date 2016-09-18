@@ -1,7 +1,29 @@
 package com.dexstaar.codility;
 
+import java.util.Arrays;
+
 /**
- * Created by dexstar on 9/18/16.
+ * This is a Answer for Codility Lesson 6: Distinct
+ * Scored:
  */
 public class Distinct {
+    public int solution(int[] A) {
+
+        if(A.length == 0) return 0;
+
+        Arrays.sort(A);
+
+        int previous = A[0];
+        int count = 1;
+
+        for(int i=0; i<A.length; i++){
+
+            if(A[i] != previous){
+                count++;
+                previous = A[i];
+            }
+        }
+
+        return count;
+    }
 }

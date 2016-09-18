@@ -9,9 +9,11 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		CountDiv countDiv = new CountDiv();
+		Distinct distinct = new Distinct();
 
-		System.out.println( countDiv.solution(0,0,11) );
+		int[] A = {};
+
+		System.out.println( distinct.solution(A) );
 	}
 
 }
