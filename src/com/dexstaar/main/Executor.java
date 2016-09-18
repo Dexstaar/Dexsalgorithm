@@ -1,7 +1,5 @@
 package com.dexstaar.main;
 
-import com.dexstaar.algorithm.Array.*;
-import com.dexstaar.algorithm.resursion.*;
 import com.dexstaar.algorithm.sort.*;
 
 import java.util.Arrays;
@@ -12,9 +10,9 @@ public class Executor {
 
 		int[] arr = {2,8,3,4,5,6,1,7};
 
-		QuickSort quickSort = new QuickSort();
+		QuickSortOptimized quickSort = new QuickSortOptimized();
 
-		System.out.println( Arrays.toString(quickSort.quicksortSimple(arr)) );
+		System.out.println( Arrays.toString(quickSort.quickSortOptimized(arr)) );
 	}
 
 }

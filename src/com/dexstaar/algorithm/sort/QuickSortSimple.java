@@ -1,6 +1,6 @@
 package com.dexstaar.algorithm.sort;
 
-public class QuickSort {
+public class QuickSortSimple {
 
 	//간단하지만 효율이 떨어지는 퀵소트
 	public int[] quicksortSimple(int[] data){
