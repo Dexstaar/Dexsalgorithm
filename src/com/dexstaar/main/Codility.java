@@ -9,11 +9,11 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Distinct distinct = new Distinct();
+		Triangle triangle = new Triangle();
 
-		int[] A = {};
+		int[] A = {10,50,5,1};
 
-		System.out.println( distinct.solution(A) );
+		System.out.println( triangle.solution(A) );
 	}
 
 }
