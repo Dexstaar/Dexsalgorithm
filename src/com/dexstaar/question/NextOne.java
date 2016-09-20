@@ -1,19 +1,11 @@
-package com.dexstaar.main;
+package com.dexstaar.question;
 
 import java.util.Arrays;
 import java.util.HashMap;
 
 public class NextOne {
 
-    public static void main(String[] args) {
-        int[] posA = {1, 18, 30, 44, 58};
-        int[] posB = {2, 23, 50, 60};
-        int[] posC = {3, 35, 42, 54, 63};
-
-        solution(posA, posB, posC);
-    }
-
-    private static void solution(int[] posA, int[] posB, int[] posC){
+    public void solution(int[] posA, int[] posB, int[] posC){
 
         // Map에 위치와 단어 정보를 담는다
         HashMap<Integer,String> map = new HashMap<Integer, String>();
@@ -75,7 +67,7 @@ public class NextOne {
 
 
     //세개의 배열을 합침
-    private static int[] concatArr(int[] arrA, int[] arrB, int[] arrC){
+    private int[] concatArr(int[] arrA, int[] arrB, int[] arrC){
         int lengthA = arrA.length;
         int lengthB = arrB.length;
         int lengthC = arrC.length;
@@ -100,7 +92,7 @@ public class NextOne {
 
 
     //세 정수 사이의 가장 큰 갭을 구함
-    private static int getMaxGap(int a, int b, int c){
+    private int getMaxGap(int a, int b, int c){
         int max = a;
         int min = a;
 
@@ -114,7 +106,7 @@ public class NextOne {
     }
 
     //세 정수 사이의 최소값
-    private static int getMinValue(int a, int b, int c){
+    private int getMinValue(int a, int b, int c){
         int min = a;
 
         if(min > b) min = b;
