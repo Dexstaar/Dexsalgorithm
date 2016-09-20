@@ -4,7 +4,7 @@ import com.dexstaar.algorithm.sort.*;
 
 import java.util.Arrays;
 
-public class Executor {
+public class Algorithm {
 
 	public static void main(String[] args) {
 
