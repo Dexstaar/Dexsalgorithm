@@ -8,6 +8,9 @@ import com.dexstaar.question.*;
 public class Question {
     public static void main(String[] args) {
 
+
+
+
         // A,B,C 를 하나씩 담고있는 최단 거기를 구하라
         NextOne nextOne = new NextOne();
 
@@ -16,5 +19,6 @@ public class Question {
         int[] posC = {3, 35, 42, 54, 63};
 
         nextOne.solution(posA, posB, posC);
+
     }
 }
