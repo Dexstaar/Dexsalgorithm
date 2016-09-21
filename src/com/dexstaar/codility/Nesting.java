@@ -17,7 +17,6 @@ public class Nesting {
         try{
             for(char elem : arr){
 
-
                 if(elem == '('){
                     stack.push(elem);
                 }else{

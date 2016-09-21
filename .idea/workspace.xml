@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa0ec22-f6c8-45ba-a91b-b59be9a67f26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/codility/Nesting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dexstaar/main/Codility.java" afterPath="$PROJECT_DIR$/src/com/dexstaar/main/Codility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dexstaar/codility/Nesting.java" afterPath="$PROJECT_DIR$/src/com/dexstaar/codility/Nesting.java" />
     </list>
     <ignored path="Dexalgorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +37,8 @@
       <file leaf-file-name="Nesting.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dexstaar/codility/Nesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -844,12 +842,12 @@
       <workItem from="1474258636050" duration="3622000" />
       <workItem from="1474262528934" duration="5681000" />
       <workItem from="1474338810911" duration="8587000" />
-      <workItem from="1474421331579" duration="3484000" />
+      <workItem from="1474421331579" duration="3580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69058000" />
+    <option name="totallyTimeSpent" value="69154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1150,8 +1148,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dexstaar/codility/Nesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="255">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
