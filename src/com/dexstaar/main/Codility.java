@@ -9,11 +9,11 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		MaxProductOfThree maxProductOfThree = new MaxProductOfThree();
+		Nesting nesting = new Nesting();
 
-		int[] A = {-5, 5, -5, 4};
+		String S = "))((";
 
-		System.out.println( maxProductOfThree.solution(A) );
+		System.out.println( nesting.solution(S) );
 	}
 
 }
