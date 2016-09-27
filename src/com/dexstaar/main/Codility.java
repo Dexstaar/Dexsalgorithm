@@ -9,11 +9,11 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Nesting nesting = new Nesting();
+		Brakets brakets = new Brakets();
 
-		String S = "))((";
+		String S = ")(";
 
-		System.out.println( nesting.solution(S) );
+		System.out.println( brakets.solution(S) );
 	}
 
 }
