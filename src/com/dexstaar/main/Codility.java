@@ -9,11 +9,12 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Brakets brakets = new Brakets();
+		Fish fish = new Fish();
 
-		String S = ")(";
+		int[] A = {4,5,3,1,2};
+		int[] B = {0,1,1,1,0};
 
-		System.out.println( brakets.solution(S) );
+		System.out.println( fish.solution(A, B) );
 	}
 
 }
