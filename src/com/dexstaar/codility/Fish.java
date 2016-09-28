@@ -22,10 +22,12 @@ public class Fish {
                     count++;
                 }else{
                     try{
+                        //if fishes in the stack are smaller than the fish [i]
                         while(stack.peek()<A[i]){
                             stack.pop();
                         }
                     }catch(EmptyStackException e){
+                        //no fish in the stack remains, which means fish[i] is survived
                         count++;
                     }
                 }
