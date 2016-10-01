@@ -7,11 +7,11 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		StoneWall stoneWall = new StoneWall();
+		Dominator dominator = new Dominator();
 
-		int[] H = {8,8,5,7,9,8,7,4,8};
+		int[] H = {};
 
-		System.out.println( stoneWall.solution(H) );
+		System.out.println( dominator.solution(H) );
 	}
 
 }
