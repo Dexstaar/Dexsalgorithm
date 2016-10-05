@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * This is a Answer for Codility Lesson 6: Distinct
- * Scored:
+ * Scored: 100
  */
 public class Distinct {
     public int solution(int[] A) {

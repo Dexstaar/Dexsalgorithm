@@ -1,10 +1,10 @@
+/*
 package com.dexstaar.algorithm.tree;
+
 
 public class BinarySearchTree {
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int arr[] = { 24, 15, 19, 2, 28, 27, 30 };
@@ -30,3 +30,4 @@ public class BinarySearchTree {
 	}
 
 }
+*/

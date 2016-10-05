@@ -1,4 +1,4 @@
-package com.dexstaar.algorithm.tree;
+/*package com.dexstaar.algorithm.tree;
 
 import com.dexstaar.algorithm.tree.Node;
 
@@ -65,3 +65,4 @@ public class Tree {
 	}
 
 }
+*/

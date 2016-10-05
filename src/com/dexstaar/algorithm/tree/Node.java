@@ -1,26 +1,30 @@
-package com.dexstaar.algorithm.tree;
+/*package com.dexstaar.algorithm.tree;
 
-public class Node {
-	int value;
-	Node left;
-	Node right;
-	
-	public int getValue() {
-		return value;
+public abstract class Node{
+	private Node[] children;
+
+	public Node(Node[] children){
+		this.children = children;
 	}
-	public void setValue(int value) {
-		this.value = value;
+
+	public int getNumChildren(){
+		return children.length;
 	}
-	public Node getLeft() {
-		return left;
-	}
-	public void setLeft(Node left) {
-		this.left = left;
-	}
-	public Node getRight() {
-		return right;
-	}
-	public void setRight(Node right) {
-		this.right = right;
+
+	public Node getChild(int index){
+		return children[index];
 	}
 }
+
+public class IntNode extends Node{
+	private int value;
+
+	public IntNode(Node[] children, int value){
+		super(children);
+		this.value = value;
+	}
+
+	public int getValue(){
+		return value;
+	}
+}*/

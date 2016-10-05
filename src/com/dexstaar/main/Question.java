@@ -11,7 +11,7 @@ public class Question {
 
 
 
-        // A,B,C 를 하나씩 담고있는 최단 거기를 구하라
+        // A,B,C 를 하나씩 담고있는 최단 거리를 구하라
         NextOne nextOne = new NextOne();
 
         int[] posA = {1, 18, 30, 44, 58};

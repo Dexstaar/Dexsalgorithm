@@ -2,6 +2,10 @@ package com.dexstaar.codility;
 
 import java.util.HashMap;
 
+/**
+ * This is a Answer for Codility Lesson 8 : Dominator
+ * Scored: 100
+ */
 public class Dominator {
     public int solution(int[] A) {
         int total = A.length;
