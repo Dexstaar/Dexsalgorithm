@@ -7,11 +7,15 @@ public class Codility {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		MaxProfit maxProfit = new MaxProfit();
 
-		int[] H = {23171, 21011, 21123, 21366, 21013, 21367};
+		/*
+		EquiLeader equiLeader = new EquiLeader();
 
-		//System.out.println( maxProfit.solution(H) );
+		int[] H = {4,3,4,4,4,2};
+
+		System.out.println( equiLeader.solution(H) );
+		*/
+
 	}
 
 }

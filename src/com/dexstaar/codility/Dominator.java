@@ -7,6 +7,7 @@ import java.util.HashMap;
  * Scored: 100
  */
 public class Dominator {
+
     public int solution(int[] A) {
         int total = A.length;
         if(total == 1) return 0;
@@ -23,7 +24,6 @@ public class Dominator {
                 if(count > half){
                     return i;
                 }else{
-
                     map.put(A[i], count);
                 }
 

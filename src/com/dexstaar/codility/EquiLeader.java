@@ -1,61 +1,17 @@
+/*
 package com.dexstaar.codility;
 
-import java.util.Arrays;
-import java.util.HashMap;
-
-/**
- * This is a Answer for Codility Lesson 6: Distinct
- * Scored: 55
- * Note: Can not find the solution that the time complexity is lower than O(N^2)
- */
 public class EquiLeader {
-
     public int solution(int[] A) {
-
-        int ALength = A.length;
-        int count = 0;
-
-        for(int i=0; i<ALength-1; i++){
-
-            int[] left = Arrays.copyOfRange(A, 0, i+1);
-            int[] right = Arrays.copyOfRange(A, i+1, ALength);
-
-            if( getLeader(left) == getLeader(right) && getLeader(right) != -1 ){
-                count++;
-            }
-        }
-
-        return count;
+        // 1. 리더를 구한다
 
 
+
+        // 2. 리더가 전체 몇번 있나 구한다. 전체 반 이하면 나가리
+
+
+
+        // 3. 기준점이 옮겨가며, 좌측은 (i+1)/2 많으면, 우측은 (length-i-1)/2 크면 QeuiLeader 이다
     }
-
-
-    private int getLeader(int[] A) {
-        int total = A.length;
-        if(total == 1) return A[0];
-
-        int half = total/2;
-
-        HashMap<Integer, Integer> map = new HashMap<>();
-
-        for(int i=0; i<A.length; i++){
-            if(map.containsKey(A[i])){
-                int count = map.get(A[i]);
-                count++;
-
-                if(count > half){
-                    return A[i];
-                }else{
-
-                    map.put(A[i], count);
-                }
-
-            }else{
-                map.put(A[i], 1);
-            }
-        }
-        return -1;
-    }
-
 }
+*/
