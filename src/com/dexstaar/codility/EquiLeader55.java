@@ -8,7 +8,7 @@ import java.util.HashMap;
  * Scored: 55
  * Note: Can not find the solution that the time complexity is lower than O(N^2)
  */
-public class EquiLeader {
+public class EquiLeader55 {
 
     public int solution(int[] A) {
 
