@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa0ec22-f6c8-45ba-a91b-b59be9a67f26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/BinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/IntNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/codility/EquiLeader55.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/codility/EquileaderRafal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/question/HoonCalendar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/question/KthElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/question/KthLargest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/question/Queue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/question/QuickSelect.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexstaar/codility/MaxProfit.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dexstaar/question/KthSmallest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSortOptimized.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSortSimple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort_old.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dexstaar/question/KthElement.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/Node.java" afterPath="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dexstaar/codility/Dominator.java" afterPath="$PROJECT_DIR$/src/com/dexstaar/codility/Dominator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/BinarySearch.java" afterPath="$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/BinarySearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dexstaar/codility/EquiLeader.java" afterPath="$PROJECT_DIR$/src/com/dexstaar/codility/EquiLeader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dexstaar/main/Algorithm.java" afterPath="$PROJECT_DIR$/src/com/dexstaar/main/Algorithm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dexstaar/main/Codility.java" afterPath="$PROJECT_DIR$/src/com/dexstaar/main/Codility.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dexstaar/main/Question.java" afterPath="$PROJECT_DIR$/src/com/dexstaar/main/Question.java" />
     </list>
@@ -42,7 +40,7 @@
       <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dexstaar/main/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="225">
               <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,52 +52,29 @@
       <file leaf-file-name="KthLargest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/KthLargest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="60" />
+            <state relative-caret-position="581">
+              <caret line="56" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSelect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/QuickSelect.java">
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="406">
+              <caret line="46" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntNode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/IntNode.java">
+      <file leaf-file-name="KthSmallest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/KthSmallest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-              <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="174">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,12 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort_old.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSortSimple.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickOptimized.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSortOptimized.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/main/Executor.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/codility/Triangle.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/main/Next.java" />
@@ -137,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/com/dexstaar/codility/MaxProductOfThree.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/question/NextOne.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/Permutation_old.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/Permutations.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/question/NextTwo.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/question/MathTest.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/codility/Nesting.java" />
@@ -150,7 +118,6 @@
         <option value="$PROJECT_DIR$/src/com/dexstaar/leetcode/FindTheDifference.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/LinkedList/ListElement.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/BinaryTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/main/Algorithm.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/LinkedList/Link.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/BinarySearchTree.java" />
@@ -166,15 +133,23 @@
         <option value="$PROJECT_DIR$/src/com/dexstaar/codility/Dominator.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/codility/EquiLeader55.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/codility/EquiLeader.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/main/Codility.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/question/Appear.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/question/KthLargest.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/question/QuickSelection.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/question/QuickSelect.java" />
-        <option value="$PROJECT_DIR$/src/com/dexstaar/main/Question.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/IntNode.java" />
         <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/main/Codility.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/codility/EquiLeader.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/question/KthLargest.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/BinarySearch1.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort_old.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSortOptimized.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/main/Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/question/KthSmallest.java" />
+        <option value="$PROJECT_DIR$/src/com/dexstaar/main/Question.java" />
       </list>
     </option>
   </component>
@@ -194,6 +169,25 @@
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
     <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -220,9 +214,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,6 +252,10 @@
               <option name="myItemId" value="dexstaar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="question" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -277,11 +275,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dexalgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dexalgorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tree" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dexstaar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,7 +326,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
@@ -954,11 +966,12 @@
       <workItem from="1475497277292" duration="438000" />
       <workItem from="1475557056758" duration="15644000" />
       <workItem from="1475732008540" duration="12509000" />
+      <workItem from="1475804589971" duration="12961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128218000" />
+    <option name="totallyTimeSpent" value="141179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -971,24 +984,24 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23240373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3798141" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2390625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16069058" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29747677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1003,7 +1016,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dexstaar/question/KthSmallest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1011,50 +1034,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort_old.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/codility/CyclicRotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/codility/Triangle1.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/codility/MaxProductOfThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="88" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/Questions.java" />
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/codility/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSortOptimized.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="51" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/Permutation_old.java" />
     <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/NextTwo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1158,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,14 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="611">
           <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/main/Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,13 +1158,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/Anagrams.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dexstaar/codility/Distinct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1225,7 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1233,14 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/KthElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1257,11 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="611">
           <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#922#0" expanded="true" />
-            <marker date="1475735529000" expanded="false" signature="867:877" ph=" { " />
-            <marker date="1475735529000" expanded="false" signature="911:917" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,16 +1219,6 @@
         <state relative-caret-position="690">
           <caret line="48" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/codility/EquiLeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#258#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1293,71 +1232,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/Appear.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/QuickSelection.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#128#129#0" expanded="false" />
+            <element signature="e#168#169#0" expanded="false" />
+            <element signature="e#202#203#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#278#279#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dexstaar/main/Codility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/Appear.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/QuickSelection.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/codility/EquiLeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="295">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/main/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/KthLargest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/QuickSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/tree/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1365,10 +1277,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/KthElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/BinarySearch1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/QuickSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/resursion/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSortOptimized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort_old.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSortSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/main/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/algorithm/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="46" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/KthLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="56" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/main/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dexstaar/question/KthSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

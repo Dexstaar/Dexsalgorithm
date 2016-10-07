@@ -13,9 +13,9 @@ public class Question {
         // find kth smallest
         int[] arr = {9, 8, 7, 6, 5, 0, 1, 2, 3, 4};
 
-        QuickSelect quickSelect = new QuickSelect();
+        KthSmallest kthSmallest = new KthSmallest();
 
-        System.out.println(quickSelect.quickSelect(arr, 1));
+        System.out.println(kthSmallest.quickSelect(arr, 3));
 
 
         /*
