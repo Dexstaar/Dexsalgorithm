@@ -7,25 +7,21 @@ package com.dexstaar.codility;
 public class BinaryGap {
 
     public int solution(int N) {
+        String binaryCode = Integer.toBinaryString(N);
 
-        // Converting to binarycode
-        String binaryStr = Integer.toBinaryString(N);
-
-        int cnt = 0;
         int gap = 0;
+        int max = 0;
+        int lastPos = 0;
 
-        // Iterate the chars
-        for(int i=0; i<binaryStr.length(); i++){
-            if(binaryStr.charAt(i) == '1'){
-                // Put max number into gap
-                gap = Math.max(gap,cnt);
-                cnt = 0;
-
-            }else{
-                cnt++;
+        for(int i=0; i<binaryCode.length(); i++){
+            if(binaryCode.charAt(i) == '1'){
+                gap = i - lastPos - 1;
+                lastPos = i;
             }
+
+            if(gap > max) max = gap;
         }
 
-        return gap;
+        return max;
     }
 }

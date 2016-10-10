@@ -9,11 +9,11 @@ public class Codility {
 
 
 
-		EquiLeader equiLeader = new EquiLeader();
+		BinaryGap binaryGap = new BinaryGap();
 
-		int[] H = {4,3,4,4,4,2};
+		int N = 6;
 
-		System.out.println( equiLeader.solution(H) );
+		System.out.println( binaryGap.solution(N) );
 
 
 	}
