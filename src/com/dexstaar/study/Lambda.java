@@ -1,37 +1,31 @@
 package com.dexstaar.study;
 
-interface Say {
-    String message(String name, String script);
+interface Calculator {
+    int calculate(int first, int second);
 }
 
-class Person {
-    public void greeting(Say say){
-        String message = say.message("Hoon", " is using");
-        System.out.println(message);
+class Operator {
+    public void operate(Calculator calculator){
+        int result = calculator.calculate(2,3);
+        System.out.println(result);
     }
 }
 
 
 public class Lambda {
     public static void main(String[] args){
-        Person hoon = new Person();
+        Operator operator = new Operator();
 
-        hoon.greeting(new Say(){
-            public String message(String name, String script){
-                StringBuilder sb = new StringBuilder();
-                sb.append(name);
-                sb.append(script);
-                sb.append(" old way");
-                return sb.toString();
+        // traditional way
+        operator.operate(new Calculator(){
+            public int calculate(int first, int second){
+                return first + second;
             }
         });
 
-        hoon.greeting( (name, script) -> {
-            StringBuilder sb = new StringBuilder();
-            sb.append(name);
-            sb.append(script);
-            sb.append(" Lambda !!");
-            return sb.toString();
+        // using Lambda
+        operator.operate( (first, second) -> {
+            return first * second;
         });
     }
 }
