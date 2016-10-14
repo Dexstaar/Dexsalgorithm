@@ -9,11 +9,11 @@ public class Codility {
 
 
 
-		BinaryGap binaryGap = new BinaryGap();
+		MaxProfit maxProfit = new MaxProfit();
 
-		int N = 6;
+		int[] A = {23171, 21011, 21123, 21366, 21013, 21367};
 
-		System.out.println( binaryGap.solution(N) );
+		System.out.println( "The answer is : " + maxProfit.solution(A) );
 
 
 	}
