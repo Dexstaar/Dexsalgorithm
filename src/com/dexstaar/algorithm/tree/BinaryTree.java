@@ -35,8 +35,75 @@ public class BinaryTree {
         }
     }
 
-    public static void main(String[] args){
+    public void inOrderTraverseTree(Node focusNode){
+        if(focusNode != null){
+            inOrderTraverseTree(focusNode.leftChild);
+            System.out.println(focusNode);
+            inOrderTraverseTree(focusNode.rightChild);
+        }
+    }
 
+    public void preOrderTraverseTree(Node focusNode){
+        if(focusNode != null){
+            System.out.println(focusNode);
+            preOrderTraverseTree(focusNode.leftChild);
+            preOrderTraverseTree(focusNode.rightChild);
+        }
+    }
+
+    public void postOrderTraverseTree(Node focusNode){
+        if(focusNode != null){
+            postOrderTraverseTree(focusNode.leftChild);
+            postOrderTraverseTree(focusNode.rightChild);
+            System.out.println(focusNode);
+        }
+    }
+
+    public Node findNode(int key){
+        Node focusNode = root;
+
+        while(focusNode.key != key){
+            if(key < focusNode.key){
+                focusNode = focusNode.leftChild;
+            }else{
+                focusNode = focusNode.rightChild;
+            }
+
+            if(focusNode == null) return null;
+        }
+
+        if(focusNode == null){
+            return null;
+        }
+
+        return focusNode;
+    }
+
+    public static void main(String[] args){
+        BinaryTree theTree = new BinaryTree();
+
+        theTree.addNode(50, "Boss");
+        theTree.addNode(25, "Vice Pres");
+        theTree.addNode(15, "Office Manager");
+        theTree.addNode(30, "Secretary");
+        theTree.addNode(75, "Sales Manager");
+        theTree.addNode(85, "Salesman 1");
+
+        System.out.println("** inOrderTraverse **");
+        theTree.inOrderTraverseTree(theTree.root);
+        System.out.println("*********************");
+
+        System.out.println("** preOrderTraverse **");
+        theTree.preOrderTraverseTree(theTree.root);
+        System.out.println("*********************");
+
+        System.out.println("** postOrderTraverse **");
+        theTree.postOrderTraverseTree(theTree.root);
+        System.out.println("*********************");
+
+        System.out.println("** Search for 30 **");
+        System.out.println(theTree.findNode(30));
+        System.out.println("*********************");
     }
 }
 
