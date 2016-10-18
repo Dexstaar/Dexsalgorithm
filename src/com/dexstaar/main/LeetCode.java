@@ -1,11 +1,11 @@
 package com.dexstaar.main;
 
-import com.dexstaar.leetcode.ReverseInteger;
+import com.dexstaar.leetcode.*;
 
 public class LeetCode {
     public static void main(String[] args){
-        ReverseInteger reverseInteger = new ReverseInteger();
+        UglyNumber uglyNumber = new UglyNumber();
 
-        //System.out.println( reverseInteger.reverse(9646324351) );
+        System.out.println( uglyNumber.isUgly(6) );
     }
 }
