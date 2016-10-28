@@ -6,6 +6,46 @@ public class LeetCode {
     public static void main(String[] args){
 
 
+        // Palindrome Linked List
+
+
+
+
+
+
+
+
+        /*
+        // Intersection of Two Linked Lists
+        // 1 --> 2 --> 7 --> 8 --> 9
+        // 4 --> 5 --> 6 --> 7 --> 8 --> 9
+        ListNode headA = new ListNode(1);
+        ListNode headASecond = new ListNode(2);
+
+        ListNode headB = new ListNode(4);
+        ListNode headBSecond = new ListNode(5);
+        ListNode headBThird = new ListNode(6);
+
+        ListNode seventh = new ListNode(7);
+        ListNode eighth = new ListNode(8);
+        ListNode ninth = new ListNode(9);
+
+        headA.next = headASecond;
+        headASecond.next = seventh;
+
+        headB.next = headBSecond;
+        headBSecond.next = headBThird;
+        headBThird.next = seventh;
+
+        seventh.next = eighth;
+        eighth.next = ninth;
+
+        IntersectionOfTwoLinkedLists intersectionOfTwoLinkedLists = new IntersectionOfTwoLinkedLists();
+        printReturnedLinkedList(intersectionOfTwoLinkedLists.getIntersectionNode(headA, headB));
+        */
+
+
+
 
 
         /*
@@ -21,13 +61,7 @@ public class LeetCode {
         //third.next = fourth;
 
         DeleteNodeInALinkedList deleteNodeInALinkedList = new DeleteNodeInALinkedList();
-
-        ListNode returnedList = deleteNodeInALinkedList.deleteNode(head);
-
-        while(returnedList != null) {
-            System.out.print(returnedList.val + " --> ");
-            returnedList = returnedList.next;
-        }
+        printReturnedLinkedList(deleteNodeInALinkedList.deleteNode(head));
         */
 
 
@@ -36,6 +70,9 @@ public class LeetCode {
 
 
 
+
+
+        /*
         //Delete Node At a postion
         //1 --> 2 --> 3 --> 4 --> 5
         ListNode head = new ListNode(1);
@@ -51,12 +88,11 @@ public class LeetCode {
 
         DeleteNodeAtPosition deleteNodeAtPosition = new DeleteNodeAtPosition();
 
-        ListNode returnedList = deleteNodeAtPosition.deleteAtPosition(head, 1);
+        ListNode returnedList = deleteNodeAtPosition.deleteAtPosition(head, 5);
 
-        while(returnedList != null) {
-            System.out.print(returnedList.val + " --> ");
-            returnedList = returnedList.next;
-        }
+        printReturnedLinkedList(returnedNode);
+        */
+
 
 
 
@@ -126,5 +162,12 @@ public class LeetCode {
         }
         */
 
+    }
+
+    private static void printReturnedLinkedList(ListNode returnedNode) {
+        while(returnedNode != null){
+            System.out.print(returnedNode.val + " --> ");
+            returnedNode = returnedNode.next;
+        }
     }
 }
