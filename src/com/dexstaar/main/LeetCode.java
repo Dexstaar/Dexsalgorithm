@@ -7,6 +7,24 @@ public class LeetCode {
 
 
         // Palindrome Linked List
+        // 1 --> 2 --> 3 --> 2 --> 1
+
+        ListNode head = new ListNode(1);
+        /*
+        ListNode second = new ListNode(2);
+        ListNode third = new ListNode(3);
+        ListNode fourth = new ListNode(2);
+        ListNode fifth = new ListNode(1);
+
+        head.next = second;
+        second.next = third;
+        third.next = fourth;
+        fourth.next = fifth;
+        */
+
+        PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
+
+        System.out.println(palindromeLinkedList.isPalindrome(head));
 
 
 
