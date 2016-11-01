@@ -6,11 +6,15 @@ public class LeetCode {
     public static void main(String[] args){
 
 
+        // First Unique Character in a String
+        FirstUniqueCharacterInAString firstUniqueCharacterInAString = new FirstUniqueCharacterInAString();
+        System.out.println(firstUniqueCharacterInAString.firstUniqChar("loveleetcode"));
+
+        /*
         // Palindrome Linked List
         // 1 --> 2 --> 3 --> 2 --> 1
 
         ListNode head = new ListNode(1);
-        /*
         ListNode second = new ListNode(2);
         ListNode third = new ListNode(3);
         ListNode fourth = new ListNode(2);
@@ -20,11 +24,12 @@ public class LeetCode {
         second.next = third;
         third.next = fourth;
         fourth.next = fifth;
-        */
+
 
         PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
 
         System.out.println(palindromeLinkedList.isPalindrome(head));
+        */
 
 
 
