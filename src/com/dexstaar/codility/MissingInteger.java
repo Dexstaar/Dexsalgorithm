@@ -8,7 +8,6 @@ import java.util.HashMap;
  */
 public class MissingInteger {
     public int solution(int[] A) {
-        // write your code in Java SE 8
         HashMap<Integer, Boolean> map = new HashMap<Integer, Boolean>();
 
         for(int elem : A){
